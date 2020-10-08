@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+.recipe{
+    width: 190px;
+    height: 70px;
+    
+}
+
+.header{
+    background-color: #333;
+    flex-direction: row;
+    height: 240px;
+    padding: 50px;
+    opacity: 80%;
+    
+}
+
+    body{
+        background-color: rgb(41, 31, 31);
+    }
+
+.h4{
+    background-color: #333;
+    
+}
+.btn5{
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+.btn6{
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    display: none;
+}
+.a, .h4{
+ text-decoration: none;  
+  color: white;  
+  margin-left: 5%;
+  padding-left: 100px;
+    
+}
+.btn5:active{
+    border: none;
+}
+
+
+.a:hover{
+    text-shadow: 1px 1px 1px wheat;
+   
+}
+/*End of Heading*/
+.descimg{
+    width: 1349px;
+    height: 585px;
+  position: relative;
+}
+.recipelink{
+    margin-top: 10px;
+}
+.yay{
+    background-color: #333;
+    padding-left: -10px;
+    
+}
+.h1{
+position: absolute;
+bottom: 10px;
+text-align: center;
+font-family: 'Grandstander', cursive;
+color: wheat;
+margin: 200px;
+}
+.pastapng{
+    width: 300px;
+    height: 175.5px;
+    padding: 10px;
+    margin-left:40px;
+    border-radius: 20px;
+}
+.pasta{
+    background-color: rgb(167, 155, 155);
+    width: 400px;
+    height: 650px;
+    margin-left: 160px;
+margin-top: 10px;
+margin-bottom: 20px;
+box-shadow: 7px 7px 14px red;
+transition: 1s;
+}
+.pasta:hover{
+    box-shadow: 7px 7px 14px blue;
+}
+.h3{
+    margin-left: 10px;
+    color: whitesmoke;
+}
+.he{
+    color: rgb(108, 108, 155);
+    margin-left: 10px;
+    
+}
+.ul{
+    margin-left: 30px;
+    margin-top: 10px;
+    color: red;
+    transition: 1s;
+    text-shadow: 1px 1px 1px red;
+}
+.ul li {
+    margin-bottom: 3px;
+    list-style-image: url("double-tick.png");
+}
+.ul:hover{
+    color: blue;
+    text-shadow: 1px 1px 1px blue;
+}
+.ol{
+    margin-left: 30px;
+    margin-top: 10px;
+    color: red;
+    transition: 1s;
+    text-shadow: 1px 1px 1px red;
+}
+.recipeheader{
+    display: inline-flex;
+    flex-direction: row;
+    width: 1349px;
+    margin-top: -4px;
+    
+    background-color: rgb(41, 31, 31);
+}
+.ol li {
+  bottom: '';  
+  margin-bottom: 3px;
+}
+.ol:hover{
+    color: blue;
+    text-shadow: 1px 1px 1px blue;
+}
+.pasta1{
+    background-color: rgb(167, 155, 155);
+    width: 400px;
+    height: 650px;
+    margin-left: 160px;
+margin-top: 10px;
+margin-bottom: 20px;
+box-shadow: 7px 7px 14px blue;
+transition: 1s;
+
+display: none;
+}
+.o:hover{
+cursor: pointer;
+}
+.pasta1:hover{
+    box-shadow: 7px 7px 14px red;
+}
+.chola{
+    background-color: rgb(167, 155, 155);
+    width: 400px;
+    height: 650px;
+    margin-left: 200px;
+margin-top: 10px;
+margin-bottom: 20px;
+box-shadow: 7px 7px 14px blue;
+transition: 1s;
+position: sticky;
+
+
+}
+.chola:hover{
+    box-shadow: 7px 7px 14px red;
+}
+#btn1{
+    color: white;
+    background-color: purple;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    margin-left: 160px;
+}
+.btn5{
+    display: none;
+}
+.aboutit{
+    margin-left: 30px;
+}
+
+#home{
+    margin-left: 200px;
+}
+.b{
+    text-decoration: none;  
+    color: whitesmoke;  
+    text-align: center;
+    font-family: 'Grandstander', cursive;
+    transition: 1s;
+}
+.b:hover{
+    text-shadow: 3px 3px 3px white;
+}
+.about{
+    width: 950px;
+    height: 300px;
+    margin: 70px;
+    background-color: white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+ 
+  
+}
+
+.pt1{
+    
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    
+   
+}
+.imgsrc{
+    width: 269.5px;
+    height: 183.75px;
+    margin-top: 10px;
+    
+ 
+    border-radius: 10px;
+}
+.pt3{
+ margin-top: 100px;
+ margin-left: 20px;
+ font-family: 'Architects Daughter', cursive;
+}
+.span{
+    text-shadow: 1px 1px 1px black;
+    font-weight: bolder;
+}
+.end{
+    background-color: #333;
+    height: 70px;
+}
+.end p{
+    color: white;
+    margin-left: 40px;
+    padding-top: 20px;
+    opacity: 50%;
+    background-color: #333;
+}
+.end h5{
+    color: white;
+    margin-right: 30px;
+}
+.end a{
+    color: white;
+    text-decoration: none;
+    transition: 2s;
+}
+.end a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
