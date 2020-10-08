@@ -181,6 +181,26 @@ position: sticky;
 .chola:hover{
     box-shadow: 7px 7px 14px red;
 }
+.chola1{
+    background-color: rgb(167, 155, 155);
+    width: 400px;
+    height: 650px;
+    margin-left: 200px;
+margin-top: 10px;
+margin-bottom: 20px;
+box-shadow: 7px 7px 14px blue;
+transition: 1s;
+position: sticky;
+display: none;
+
+
+}
+.hard{
+    cursor: pointer;
+}
+.chola1:hover{
+    box-shadow: 7px 7px 14px red;
+}
 #btn1{
     color: white;
     background-color: purple;

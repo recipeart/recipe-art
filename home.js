@@ -131,3 +131,11 @@ $("#av").click(function(){
   $("#about").mouseover(function(){
     $("#about").css('border',"none");
   });
+  $('.hard').click(function (){
+      $('.chola').hide();
+      $('.chola1').show();
+  })
+  function bn1 (){
+    $('.chola1').hide();
+    $('.chola').show();
+}
