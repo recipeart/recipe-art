@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.end{
+    background-color: #333;
+    height: 70px;
+    margin-top: 500px;
+    
+}
+.end p{
+    color: white;
+    margin-left: 40px;
+    padding-top: 20px;
+    opacity: 50%;
+    background-color: #333;
+}
+.end h5{
+    color: white;
+    margin-right: 30px;
+}
+.end a{
+    color: white;
+    text-decoration: none;
+    transition: 2s;
+}
+.end a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.recipe{
+    width: 190px;
+    height: 70px;
+    
+}
+
+.header{
+    background-color: #333;
+    flex-direction: row;
+    height: 240px;
+    padding: 50px;
+    opacity: 80%;
+    
+}
+
+    body{
+        background-color: rgb(41, 31, 31);
+    }
+
+.h4{
+    background-color: #333;
+    
+}
+.btn5{
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+.btn6{
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    display: none;
+}
+.a, .h4{
+ text-decoration: none;  
+  color: white;  
+  margin-left: 5%;
+  padding-left: 100px;
+    
+}
+.btn5:active{
+    border: none;
+}
+
+
+.a:hover{
+    text-shadow: 1px 1px 1px wheat;
+   
+}
+#home{
+    margin-left: 200px;
+}
+.french, .all, .american, .indian, .swedish, .mexican, .chinese{
+    background-color: white;
+    width: 130px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.types{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+ overflow-x: auto;
+}
+.types::-webkit-scrollbar{
+    width: 12px;
+    background-color:  rgb(41, 31, 31);
+    border-radius: 6px;
+    
+}
+.types::-webkit-scrollbar:active{
+    width: 12px;
+    background-color: rgb(41, 31, 31);
+    border-radius: 100px;
+    transition: 3s;
+}
+.types::-webkit-scrollbar-thumb{
+    border-radius: 100px;
+    
+    background: #333 ;
+transition: 5s;
+}
+.types::-webkit-scrollbar-thumb:active{
+    border-radius: 6px;
+    
+    background:  rgb(41, 31, 31);
+}
+.french img{
+    width: 34.1px;
+    height: 28.05px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.french h3{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: 'Parisienne', cursive;
+
+}
+.french a{
+  color: black;
+  text-decoration: none;
+}
+.swedish{
+    width: 150px;
+}
+.swedish a{
+    color: black;
+    text-decoration: none;
+  }
+  .american a{
+    color: black;
+    text-decoration: none;
+  }
+ 
+  .mexican a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .indian a{
+    color: black;
+    text-decoration: none;
+  }
+  .chinese a{
+    color: black;
+    text-decoration: none;
+  }
+  .all a{
+    color: black;
+    text-decoration: none;
+  }
+
+.indian img{
+    width: 34.1px;
+    height: 28.05px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.indian h3{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: 'Hind', sans-serif;
+
+
+
+}
+.american{
+    width: 175px;
+}
+.american img{
+    width: 34.1px;
+    height: 28.05px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.american h3{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-family: 'Special Elite', cursive;
+
+
+
+
+}
+.all img{
+    width: 34.1px;
+    height: 28.05px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.all h3{
+    margin-top: 17px;
+    margin-left: 20px;
+    font-family: 'Special Elite', cursive;
+}
+
+.swedish img{
+    width: 34.1px;
+    height: 28.05px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.swedish h3{
+    margin-top: 15px;
+    margin-left: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+
+
+}
+
+.mexican{
+    width: 200px;
+}
+.mexican img{
+    width: 34.1px;
+    height: 28.05px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.mexican h3{
+    margin-top: 10px;
+    margin-left: 3px;
+    font-family: 'Chango', cursive;
+
+
+
+
+
+
+}
+.chinese{
+    width: 160px;
+}
+.chinese img{
+    width: 34.1px;
+    height: 28.05px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+.chinese h3{
+    margin-top: 13px;
+    margin-left: 3px;
+    font-family: 'Work Sans', sans-serif;
+}
+.pizza{
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    border-radius: 10px;
+}
+.p{
+    margin-top: 50px;
+font-family: 'Grandstander', cursive;
+}
+.pizza h1{
+    margin-left: 10px;
+font-family: 'Grandstander', cursive;
+}
+#pizza{
+    border-radius: 10px;
+    height: 166.363636364px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+font-family: 'Grandstander', cursive;
+}
+
+
